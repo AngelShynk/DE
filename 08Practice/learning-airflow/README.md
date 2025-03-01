@@ -5,8 +5,30 @@ For more info about astronomer go to [Astronomer Quickstart page](https://www.as
 # What was modified
 
 ## Dags added:
-- mysql_to_duckdb_dag.py -> mysql_to_duckdb_dag dag
 - simple_python_operator.py -> simple_python_operator dag
+
+- mysql_to_duckdb_dag.py -> mysql_to_duckdb_dag dag
+
+For mysql_to_duckdb_dag dag you need to prepare your local Mysql database:
+
+```
+-- Create database
+CREATE DATABASE test_db;
+USE test_db;
+
+-- Create table
+CREATE TABLE products (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255),
+    price DOUBLE
+);
+
+-- Insert some sample data
+INSERT INTO products (name, price) VALUES 
+    ('Laptop', 1200.00),
+    ('Phone', 600.00),
+    ('Tablet', 300.00);
+```
 
 ## Project settings:
 
