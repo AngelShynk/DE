@@ -1,6 +1,6 @@
 # Overview
 This project is modified project from Astronomer.
-For more info about astronomer go to [Astronomer Quickstart page](https://www.astronomer.io/docs/astro/cli/get-started-cli)
+For more info about astronomer go to [Astronomer Quickstart page](https://www.astronomer.io/docs/astro/cli/get-started-cli).
 
 # What was modified
 
