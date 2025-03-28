@@ -14,7 +14,7 @@
 
 Be able to explain your solution using the correct terminology.
 
-### Additional point (1 point):
+### Additional points (2 points):
 1. Implement incremental models +1
 2. Write and use macros +1
 
