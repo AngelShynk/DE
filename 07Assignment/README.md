@@ -10,12 +10,11 @@
 5. Add tests.
 6. Create 20 data models as minimum.
 7. Add seeds.
-8. Provide some useful data insights.
-10. Use an OLTP database as a data source when appropriate, especially for structured or transactional data.
+8. Provide some useful data insights. 
+9. Use an OLTP database as a data source when appropriate, especially for structured or transactional data.
 (Avoid using seeds for large files—they’re not suitable for that use case.) 
-Add ETL using Airflow. In Airflow DAG uses Spark or Pandas or Polars to transfer data from OLTP database to DuckDB.
-
-11. Orchestrate your project with Airflow:
+Add ETL using Airflow. In Airflow DAG uses Spark or Pandas or Polars to transfer data from OLTP database to DuckDB. 
+10. Orchestrate your project with Airflow:
 Trigger the dbt build command through a dedicated Airflow DAG to automate your workflows and ensure reproducibility.
 
 Be able to explain your solution using the correct terminology.
